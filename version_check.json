@@ -1,0 +1,16 @@
+---
+permalink: version_check.json
+---
+
+{
+  "fluxbb":
+  {
+"friendly_name": "FluxBB {{ site.data.latest_fluxbb.version }}",
+"latest_version": "{{ site.data.latest_fluxbb.version }}",
+"version_code": "{{ site.data.latest_fluxbb.version_code }}",
+"download_url": "{{ site.data.latest_fluxbb.url }}",
+"release_date": "{{ site.data.latest_fluxbb.release }}",
+"download_size": "{{ site.data.latest_fluxbb.size }}",
+"type": "{{ site.data.latest_fluxbb.type }}"
+  }
+}
