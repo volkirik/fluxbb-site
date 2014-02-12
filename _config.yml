@@ -1,0 +1,6 @@
+name: FluxBB
+markdown: redcarpet
+pygments: true
+category-list: [features]
+permalink: pretty
+baseurl: http://fluxbb-site.github.io/
