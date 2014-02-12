@@ -5,8 +5,32 @@ section: get-involved
 title: Get Involved
 description: |
   FluxBB is an open source project that depends on the contributions of volunteers. Below, find out how you can contribute to 
-  the best forum software through <a href="{{ site.baseurl }}/get-involved/development">development</a>, 
-   <a href="{{ site.baseurl }}/get-involved/resources">resources</a>, <a href="{{ site.baseurl }}/get-involved/support">support</a>, 
-   and <a href="{{ site.baseurl }}/get-involved/security">security research</a>.
+  the best forum software through <a href="./development">development</a>, 
+   <a href="./resources">resources</a>, <a href="./support">support</a>, 
+   and <a href="./get-involved/security">security research</a>.
 meta_description: Find out how to get involved with the best forum software through development, resources, support, and security research.
 ---
+
+<div class="row">
+
+	<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+	
+		<div class="panel panel-default">
+		
+			<div class="panel-heading">
+				<h3 class="panel-title">Get Involved</h3>
+			</div>
+			<div class="panel-body">
+			<ul class="nav nav-pills nav-stacked">
+				<li {% if page.subsection == "development" %} class="active" {% endif %}><a href="{{ site.baseurl }}/get-involved/development">Development</a></li>
+				<li {% if page.subsection == "resources" %} class="active" {% endif %}><a href="{{ site.baseurl }}/get-involved/resources">Resources</a></li>
+				<li {% if page.subsection == "support" %} class="active" {% endif %}><a href="{{ site.baseurl }}/get-involved/support">Support</a></li>
+				<li {% if page.subsection == "security" %} class="active" {% endif %}><a href="{{ site.baseurl }}/get-involved/security">Security Research</a></li>
+			</ul>
+			</div>
+			
+		</div>
+		
+	</div>
+
+</div>
