@@ -1,0 +1,82 @@
+---
+layout: default
+section: get-involved
+subsection: security
+
+title: Security Research
+description: |
+ While FluxBB is designed with security in mind, the possibility of security issues being introduced is ever a problem. Learn how 
+ to responsibly disclose any vulnerabilities you may find. Researchers may be eligible for a place in our Security Hall of Fame.
+meta_description: Find out how to get involved with the best forum software through development, resources, support, and security research.
+---
+
+<div class="row">
+
+	<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+	
+		<div class="panel panel-default">
+		
+			<div class="panel-heading">
+				<h3 class="panel-title">Get Involved</h3>
+			</div>
+			<div class="panel-body">
+			<ul class="nav nav-pills nav-stacked">
+				<li {% if page.subsection == "development" %} class="active" {% endif %}><a href="{{ site.baseurl }}/get-involved/development">Development</a></li>
+				<li {% if page.subsection == "resources" %} class="active" {% endif %}><a href="{{ site.baseurl }}/get-involved/resources">Resources</a></li>
+				<li {% if page.subsection == "support" %} class="active" {% endif %}><a href="{{ site.baseurl }}/get-involved/support">Support</a></li>
+				<li {% if page.subsection == "security" %} class="active" {% endif %}><a href="{{ site.baseurl }}/get-involved/security">Security Research</a></li>
+			</ul>
+			</div>
+			
+		</div>
+		
+		
+	</div>
+	
+	<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+	
+	<h3>Introduction <small>An insight in to the program</small></h3>
+
+	<p>At FluxBB, we take security as the highest priority. Both ourselves and our users need to trust that the software they're 
+	using is secure and will remain secure throughout the years. We've encountered vulnerabilities which have been disclosed to 
+	us by members of the community and encountered some which have been spread around the web. The latter is something which we 
+	want to avoid to protect our users and make understanding the issue easier. For those who responsibly disclose 
+	vulnerabilities within the FluxBB software, we have a Security Hall of Fame for bragging rights.</p>
+	
+	<h3>The Rules <small>How to be eligible</small></h3>
+
+	<p>To be eligible for a place in the Security Hall of Fame you must follow a set of rules:</p>
+
+	<ul>
+		<li>Don't attempt to exploit any FluxBB forum without the expressed permission of the owner. If possible, use a local 
+		copy of FluxBB to confirm whether the vulnerability exists or not.</li>
+		<li>Under <b>no circumstances</b> should you try to exploit the FluxBB Community Forums or any other resource owned by 
+		the FluxBB Group.</li>
+		<li>Don't publicly disclose the vulnerability before it has been fixed.</li>
+		<li>The software in question is limited to the FluxBB Forum Software. Vulnerabilities within third party FluxBB 
+		plugins do not count.</li>
+		<li>The vulnerability must be a <b>technical</b> vulnerability. Social engineering or phishing attacks do not count.</li>
+		<li>Bugs which introduce PHP warnings or SQL errors (that aren't due to SQL injection) do not count.</li>
+		<li>Only the person who discovered the vulnerability is eligible.</li>
+		<li>Spam attacks (Bypassing captchas for instance) do not count.</li>
+		<li>The vulnerability must be present in the <b>latest</b> stable release of FluxBB. Vulnerabilities within development 
+		releases or older versions do not count.</li>
+	</ul>
+
+	<h3>Reporting <small>How to report a vulnerability</small></h3>
+
+	<p>If you have discovered a potential vulnerability or security risk, we encourage you to responsibly disclose it to us via 
+	the Private Inquiries forum. Even if you do not meet the requirements to be eligible for a place in our hall of fame, please 
+	do not hesitate to report it anyway. The more details you provide and the better you can explain the issue, the faster we 
+	can release a patch and keep our users safe. Please wait up to 24 hours for a response. We're all volunteers and it may take 
+	a while to understand the issue and to look in to it.</p>
+	
+	<h3>Third Party Content <small>How to handle third party software</small></h3>
+
+	<p>While only vulnerabilities you find within the FluxBB forum software make you eligible for a place in the hall of fame, we 
+	do encourage you to report any vulnerabilities you may find within third party content to the authors. Our aim is to keep our 
+	users safe and plugins play a major role in introducing security issues.</p>
+	
+	</div>
+
+</div>
