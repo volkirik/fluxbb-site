@@ -3,4 +3,3 @@ markdown: redcarpet
 pygments: true
 category-list: [features]
 permalink: pretty
-baseurl: http://xaoseric.github.io/fluxbb-site
