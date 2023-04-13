@@ -3,3 +3,4 @@ markdown: redcarpet
 pygments: true
 category-list: [features]
 permalink: pretty
+site.url: https://fluxbb.com.tr/
