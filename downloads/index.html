@@ -20,7 +20,7 @@ meta_description: FluxBB is a fast, light, user-friendly, free and open-source f
         let htmlString = '<ul>';
         
         for (let file of data) {
-          if (${file.name}.endsWith(".zip")){
+          if (file.name.endsWith(".zip")){
             htmlString += `<li><a href="${file.name}">${file.name}</a></li>`;
           }
         }
